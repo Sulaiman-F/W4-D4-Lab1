@@ -25,7 +25,17 @@ let li = document.querySelectorAll("li").forEach((curr) => {
 let table = document.querySelector("table")
 
 
+table.classList.add("table-list");
+for (let i = 0; i < 2; i++) {
+    let row = table.insertRow()
+    row.classList.add("table-list");
 
+    for (let l = 0; l < 3; l++) {
+        let col = row.insertCell()
+        col.classList.add("table-list");
+        col.innerText = `r${i}`
+    }
+}
 
 
 
