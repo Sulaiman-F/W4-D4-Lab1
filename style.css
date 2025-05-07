@@ -1,0 +1,14 @@
+.text-p {
+    background-color: black;
+    color: blue;
+}
+
+.ul-list {
+    display: flex;
+    gap: 3%;
+}
+
+.li-list {
+    color: black;
+    border: 1px black solid;
+}
